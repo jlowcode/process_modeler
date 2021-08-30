@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<form>
+    <fields addfieldpath="/administrator/components/com_fabrik/models/fields" name="params">
+        <fieldset name="plg-list-process_modeler" label="COM_FABRIK_OPTIONS">
+            <field name="pm_access"
+                   type="accesslevel"
+                   default="1"
+                   label="PLG_FABRIK_LIST_PROCESS_MODELER_ACCESS_LABEL"
+                   repeat="true"
+            />
+
+            <field name="pm_button_label"
+                   label="PLG_FABRIK_LIST_PROCESS_MODELER_BUTTON_LABEL_LABEL"
+                   description="PLG_FABRIK_LIST_PROCESS_MODELER_BUTTON_LABEL_DESC"
+                   size="30"
+                   type="text"
+            />
+
+            <field name="pm_bpmn"
+                   label="PLG_FABRIK_LIST_PROCESS_MODELER_BPMN_LABEL"
+                   description="PLG_FABRIK_LIST_PROCESS_MODELER_BPMN_DESC"
+                   size="30"
+                   type="listfields"
+            />
+
+            <field name="pm_status"
+                   label="PLG_FABRIK_LIST_PROCESS_MODELER_STATUS_LABEL"
+                   description="PLG_FABRIK_LIST_PROCESS_MODELER_STATUS_DESC"
+                   size="30"
+                   type="listfields"
+            />
+
+            <field name="pm_miniatura"
+                   label="PLG_FABRIK_LIST_PROCESS_MODELER_MINIATURA_LABEL"
+                   description="PLG_FABRIK_LIST_PROCESS_MODELER_MINIATURA_DESC"
+                   size="30"
+                   type="listfields"
+            />
+
+            <field name="pm_miniatura_folder"
+                   label="PLG_FABRIK_LIST_PROCESS_MODELER_MINIATURA_FOLDER_LABEL"
+                   description="PLG_FABRIK_LIST_PROCESS_MODELER_MINIATURA_FOLDER_DESC"
+                   type="text"
+            />
+
+            <field name="pm_status_update"
+                   label="PLG_FABRIK_LIST_PROCESS_MODELER_STATUS_UPDATE_LABEL"
+                   description="PLG_FABRIK_LIST_PROCESS_MODELER_STATUS_UPDATE_DESC"
+                   size="30"
+                   type="text"
+            />
+        </fieldset>
+    </fields>
+</form>
