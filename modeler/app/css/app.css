@@ -65,7 +65,8 @@
 
 .content.with-diagram .canvas {
   visibility: visible;
-  height: 1200px;
+  /* height: 1200px; */  /* ORIGINAL*/
+  height: 700px;  /* ALTERAÇÃO RENAN*/
 }
 
 .content.buttons {
