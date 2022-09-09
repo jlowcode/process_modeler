@@ -17,15 +17,16 @@
     padding: 2px 16px;
     background-color: #1a3867;
     color: white;
-    height: 7%;
+    height: 5%;
 }
 
-.process_modeler-modal-header h2{
+.process_modeler-modal-header h4{
     margin: 0px;
+    font-weight: 400;
 }
 
 /* Modal Body */
-.process_modeler-modal-body {padding: 10px 16px; height: 86%;}
+.process_modeler-modal-body {padding: 10px 16px; height: 88%;}
 
 /* Modal Footer */
 .process_modeler-modal-footer {
@@ -54,18 +55,22 @@
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1}
 }
+.bjs-powered-by{
+    color: #fff !important;
+}
 
 /* The Close Button */
 .process_modeler-modal-close {
-    color: #aaa;
+    color:#fff;
     float: right;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
+    margin-top: -10px;
 }
 
 .process_modeler-modal-close:hover,
 .process_modeler-modal-close:focus {
-    color: black;
+    color: #cfcfcf;
     text-decoration: none;
     cursor: pointer;
 }

@@ -69,7 +69,7 @@ define (["jquery", "fab/list-plugin"], function (jQuery, FbListPlugin) {
             var buttonClose = document.createElement('span');
             buttonClose.setAttribute('class', 'process_modeler-modal-close');
             buttonClose.innerHTML = '&times;';
-            var title = document.createElement('h2');
+            var title = document.createElement('h4');
             title.innerHTML = 'Modelagem';
             modalHeader.appendChild(buttonClose);
             modalHeader.appendChild(title);
