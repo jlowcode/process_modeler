@@ -15,20 +15,24 @@
 /* Modal Header */
 .process_modeler-modal-header {
     padding: 2px 16px;
-    background-color: #58ACFA;
+    background-color: #1a3867;
     color: white;
-    height: 10%;
+    height: 7%;
+}
+
+.process_modeler-modal-header h2{
+    margin: 0px;
 }
 
 /* Modal Body */
-.process_modeler-modal-body {padding: 10px 16px; height: 80%;}
+.process_modeler-modal-body {padding: 10px 16px; height: 86%;}
 
 /* Modal Footer */
 .process_modeler-modal-footer {
     padding: 2px 16px;
-    background-color: #58ACFA;
+    background-color: #1a3867;
     color: white;
-    height: 10%;
+    height: 7%;
 }
 
 /* Modal Content */

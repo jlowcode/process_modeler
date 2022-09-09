@@ -110,7 +110,7 @@ define (["jquery", "fab/list-plugin"], function (jQuery, FbListPlugin) {
             var saveButton = document.createElement('button');
             saveButton.setAttribute('class', 'btn btn-default');
             saveButton.setAttribute('id', 'saveButton');
-            saveButton.setAttribute('style', 'margin: 10px')
+            saveButton.setAttribute('style', 'margin: 5px')
             saveButton.innerHTML = "Salvar";
             saveButton.onclick = () => {
                 var value_xml = document.getElementById('xml_bpmn').value;
