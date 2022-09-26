@@ -59,6 +59,10 @@
     color: #fff !important;
 }
 
+.bjs-container{
+    max-height: 90%  !important;
+}
+
 /* The Close Button */
 .process_modeler-modal-close {
     color:#fff;
